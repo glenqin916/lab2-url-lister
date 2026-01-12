@@ -1,6 +1,6 @@
 # Lab 2 - Convert WordCount to UrlCount
 
-In this lab, you're going to take WordCount (an existing Hadoop application that is extensively described in the [Hadoop tutorial](https://hadoop.apache.org/docs/r3.0.3/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)) and modify it into UrlCount. You can either approach the lab as native Java-hadoop application or use the [Hadoop streaming API](https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/) to implement the lab in Python.
+In this lab, you're going to take WordCount (an existing Hadoop application that is extensively described in the [Hadoop tutorial](https://hadoop.apache.org/docs/r3.3.6/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)) and modify it into UrlCount. You can either approach the lab as native Java-hadoop application or use the [Hadoop streaming API](https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/) to implement the lab in Python.
 
 To Do Before Starting:
 + Read through the Hadoop Tutorial mentioned above. If you're unfamilar with Java, we recommend that you use the Streaming API and use Python.
@@ -15,7 +15,7 @@ You will need to use `git` throughout this lab. You're going to first develop yo
 We recommend using the the [https://coding.csel.io](https://coding.csel.io) environment for the first steps
 of this project.
 
-The Coding environment has a pre-configured Hadoop-3.2.2 environment prepared
+The Coding environment has a pre-configured Hadoop-3.3.6 environment prepared
 if you use the CSCI 4253/5253 programming environment.
 
 To test and evaluate your system, we download two WikiPedia articles. Hadoop accesses files from the HDFS file system, and we've provided a `make prepare` rule to copy the wikipedia articles to HDFS in the `input` directory. When running on the Coding environment, this will use files in your local directory; when using the `dataproc` environment, this will use files on the Hadoop filesystem (HDFS)
